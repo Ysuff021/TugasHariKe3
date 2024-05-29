@@ -1,0 +1,61 @@
+.image{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: azure;
+    filter: drop-shadow(0 0 3px #ffffff);
+    text-shadow: -1px 0 rgb(255, 255, 255), 0 1px rgb(255, 255, 255), 1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255);
+}
+.image img{
+    border-radius: 50%;
+    margin: 70px;
+    height: 70px;
+    width: 70px;
+}
+.image .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    background-color: rgb(0, 0, 0);
+}
+.paragraph {
+    font-size: large;
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    text-shadow: -1px 0 rgb(255, 255, 255), 0 1px rgb(255, 255, 255), 1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255);
+}
+.warna {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px blue, 0 0 5px darkblue;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu img{
+    border-radius: 8px;
+    width: 150px;
+    margin: 10px;
+    filter: drop-shadow(0 0 3px #ffffff);
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
